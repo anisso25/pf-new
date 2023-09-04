@@ -208,8 +208,10 @@ img {
 }
 
 .home__titlee {
-  font-size: 1.5rem;;
+  font-size: 1.5rem;
   margin-bottom: 2.5rem;
+  margin-left: 105px; /* Ajoutez une marge à gauche */
+  color: #7e7ffb;
 }
 
 .home__titlee-color {
@@ -328,20 +330,8 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
-}
-
-.skills__js {
-  width: 65%;
-}
-
-.skills__ux {
-  width: 85%;
+.skills__data .skills__names img {
+  margin-left: 10px; /* Ajoutez une marge à gauche entre les images */
 }
 
 .skills__img {
