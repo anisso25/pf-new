@@ -207,6 +207,15 @@ img {
   color: var(--first-color);
 }
 
+.home__titlee {
+  font-size: 1.5rem;;
+  margin-bottom: 2.5rem;
+}
+
+.home__titlee-color {
+  color: hsl(var(--hue-color), 89%, 60%);;
+}
+
 .home__social {
   display: flex;
   flex-direction: column;
